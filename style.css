@@ -1074,6 +1074,9 @@ textarea{
     .popular_tags_title{
         font-size: 20px;
     }
+    .classes_list{
+        grid-template-columns: repeat(2, 2fr);
+    }
 }
 @media only screen and (max-width:425px){
     .gallery-top{
@@ -1109,6 +1112,18 @@ textarea{
         width: 20% !important;
         margin-top: 20px;
     }
+    .classes_hover{
+        padding: 10px 20px;
+    }
+    .classes_hover_title{
+        font-size: 18px;
+    }  
+    .classes_hover_title::after{
+        width: 50px;
+    }
+    .classes_hover_overview{
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width:375px){
     .footer_populartags{
@@ -1119,5 +1134,6 @@ textarea{
     }   
     .offers_title{
         font-size: 18px;
-    }     
+    }   
+    
 }   
