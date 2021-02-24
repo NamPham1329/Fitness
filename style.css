@@ -1106,7 +1106,7 @@ textarea{
         grid-template-columns: repeat(2,1fr);
     } 
     .submit button{
-        width: 100px;
+        width: 99px;
     }
     #slide3 .item .client img{
         width: 20% !important;
