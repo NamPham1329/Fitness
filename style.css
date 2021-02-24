@@ -354,7 +354,7 @@ body{
 }
 .classes_hover_title {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     font-family:'Raleway', sans-serif;;
 }
@@ -904,6 +904,16 @@ textarea{
         height: 300px;
         margin: auto;
     }
+    .classes_hover{
+        padding: 10px 5px;
+    }
+    .classes_hover_title{
+        font-size: 25px;
+    }
+    .classes_hover_link{
+        margin-top: 10px;
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width:1024px){
     body{
@@ -946,10 +956,13 @@ textarea{
     .trainer_about #myCarousel{
         margin: 3% auto;
     }.owl-prev{ 
-        width: 4%;
+        width: 10%;
     }
     .owl-next{
-        width: 4%;
+        width: 10%;
+    }
+    .classes_hover{
+        padding: 10px 20px;
     }
 }
 @media only screen and (max-width:768px){
@@ -1086,7 +1099,7 @@ textarea{
         width: 90%;
     }
     .classes_list{
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 2fr);
     }
     .trainer_info_container{
         width: 100%;
@@ -1113,13 +1126,13 @@ textarea{
         margin-top: 20px;
     }
     .classes_hover{
-        padding: 10px 20px;
+        padding: 15% 20px;
     }
     .classes_hover_title{
-        font-size: 18px;
+        font-size: 30px;
     }  
     .classes_hover_title::after{
-        width: 50px;
+        width: 40%;
     }
     .classes_hover_overview{
         font-size: 12px;
