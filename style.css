@@ -109,7 +109,7 @@ body{
 .notice_title {
     color: rgb(255, 255, 255);
     margin: 15px 0px; 
-    font-size: 50px;  
+    font-size: 30px;  
 }
 .notice_overview {
     color: rgb(255, 255, 255);
@@ -233,7 +233,7 @@ body{
 .about_welcome_title{
     color: rgb(255, 255, 255);
     padding: 10px 0px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
 }
 .about_container hr{
@@ -287,7 +287,7 @@ body{
 }
 .classes-title{ 
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 .classes hr{
@@ -354,7 +354,7 @@ body{
 }
 .classes_hover_title {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     font-family:'Raleway', sans-serif;;
 }
@@ -397,7 +397,7 @@ body{
 .title_trainer{
     text-align: center;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;   
 }
 .our_trainer hr{
@@ -510,7 +510,7 @@ body{
 }
 .testmonials_title{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-weight: 600;
 }
