@@ -4,9 +4,11 @@
     box-sizing: border-box;
     list-style: none;
     scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: rgb(24, 26, 31);
 }
 .page_header {
@@ -38,7 +40,9 @@ body{
 .menu_item{
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
     text-decoration: none;
     padding: 7px;
     border-bottom: 2px solid rgb(190, 190, 190);
@@ -71,10 +75,23 @@ body{
     width: 100%;
     text-align: center;
     padding: 15px 15px;
-    font-size: 25px;
     border: 1px solid rgb(255, 108, 44);
     border-bottom: none;
     border-left: none;
+}
+.social_item a i{
+    font-size: 25px;
+}
+.owl-item{
+    margin-top: 64px;
+}
+.owl-item.active.center{
+    width: 400px !important;
+    position: relative;
+    margin-top: 50px;
+}
+.owl-stage{
+    display: flex;
 }
 .notice {
     position: absolute;
@@ -91,11 +108,18 @@ body{
 }
 .notice_title {
     color: rgb(255, 255, 255);
-    margin: 15px 0px;
+    margin: 15px 0px; 
+    font-size: 50px;  
 }
 .notice_overview {
     color: rgb(255, 255, 255);
     margin: 15px 0px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #BFBFBF;
+}
+.notice_overview span{
+    color: #FF6C2C;
 }
 .book_container {
     display: flex;
@@ -109,6 +133,8 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 29, 106);
     border: 0px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .notice_link {
     display: flex;
@@ -116,6 +142,8 @@ body{
     font-size: 18px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 .notice_link i {
     margin-right: 10px;
@@ -163,16 +191,24 @@ body{
     text-transform: uppercase;
     margin: 10px;
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600px;
 }
 .offers_overview {
     margin: 10px;
-    color: rgb(255, 255, 255);
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
 }
 .offers_button {
     background-color: rgb(255, 29, 106);
     margin: 10px;
     padding:10px 35px 10px 25px;
     border: none;
+    font-family: Roboto;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
 }
 .about{
     max-width: 1100px;
@@ -189,41 +225,43 @@ body{
     padding: 0px 30px;
 }
 .about_title{
-    font-size: 12px;
     color: rgb(255, 108, 44);
     padding: 10px 0px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .about_welcome_title{
     color: rgb(255, 255, 255);
     padding: 10px 0px;
-    font-size: 35px;
-    font-weight: 100;
+    font-size: 50px;
+    font-weight: 500;
 }
 .about_container hr{
-    width: 15%;
+    width: 25%;
     border: 1px solid #FF1D6A;
 }
 .about_overview{
-    font-size: 13px;
-    font-family: Raleway;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
     color: #FF6C2C;
     margin-top: 5%;
+    font-weight: 500;
 }
 .about_overview2{
-    font-size: 14px;
-    font-family: Raleway;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
     color: #DCDCDC;
     margin-top: 5%;
+    font-weight: 500;
 }
 .about_link{
-    font-size: 11px;
+    font-size: 15px;
     color: #FF1D6A;
     text-decoration: none;
+    font-weight: bold;
 }
 .gallery-top{
     height: 70%;
-    width: 320px;
 }
 .gallery-top iframe{
     width: 450px;
@@ -249,20 +287,27 @@ body{
 }
 .classes-title{ 
     color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 600;
 }
 .classes hr{
-    width: 6%;
+    width: 10%;
     border: 1px solid #FF1D6A;
 }
+.classes_overview{
+    width: 70%;
+    margin: auto;
+}
 .classes_overview { 
-    max-width: 600px;
     text-align: center;
-    color: #C8C8C8;
-    margin: 3% 0px;
-    font-size: 14px;
     line-height: 20px;
+}
+.classes_overview p { 
+    color: #C8C8C8;
+    margin: 3% auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
 }
 .classes_gallery {
     margin: 20px 0px;
@@ -284,10 +329,11 @@ body{
     z-index: 0;
     width: 100%;
     padding: 15px 0px 15px 0px;
-    font-size: 16px;
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(19, 25, 26, 0.507);
+    font-size: 20px;
+    font-weight: 600;
 }
 .classes_list_item img {
     width: 100%;
@@ -308,6 +354,9 @@ body{
 }
 .classes_hover_title {
     color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Raleway', sans-serif;;
 }
 .classes_hover_title::after{
     content: " ";
@@ -348,8 +397,8 @@ body{
 .title_trainer{
     text-align: center;
     color: #FFFFFF;
-    font-size: 35px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 600;   
 }
 .our_trainer hr{
     width: 18%;
@@ -359,9 +408,13 @@ body{
 }
 .first_trainer_overview{
     color: #C8C8C8;
-    line-height: 24px;
     text-align: center;
     margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.first_trainer_overview p{
+    line-height: 5px;
 }
 .trainer_about{
     width: 100%;
@@ -379,13 +432,13 @@ body{
 }
 .trainer_info_title{
     color: #F6F7FB;
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 35px;
+    font-weight: 600;
 }
 .trainer_status{
     color: #BBBBBB;
-    font-weight: 100;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .trainer_info_container hr{
     width: 15%;
@@ -393,8 +446,9 @@ body{
 }
 .trainer_info_overview{
     color: #BBBBBB;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 5%;
+    font-weight: 400;
 }
 .trainer_social_list{
     display: flex;
@@ -456,9 +510,9 @@ body{
 }
 .testmonials_title{
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     color: #fff;
-    font-weight: 100;
+    font-weight: 600;
 }
 #slide3{
     width: 90%;
@@ -466,7 +520,11 @@ body{
 }
 #slide3 .item .content{
     text-align: center;
-    margin-top: 5%;
+}
+#slide3 .item .content p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
 }
 #slide3 .item .client{
     text-align: center;
@@ -775,7 +833,7 @@ textarea{
 /* css button slider*/
 .owl-prev{
     position: absolute;
-    bottom: 50%;
+    bottom: 38%;
     left: 0; 
     width: 3%;
     height: 10%;
@@ -784,7 +842,7 @@ textarea{
 }
 .owl-next{
     position: absolute;
-    bottom: 50%;
+    bottom: 38%;
     right: 0; 
     width: 3%;
     height: 10%;
