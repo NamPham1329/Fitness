@@ -20,19 +20,23 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-.main_navigation{
+.main_navigation {
     width: 100%;
     position: fixed !important;
     top: 0px;
     z-index: 9;
     align-items: center;
-    padding: 5px 30px;
-    background-color: rgba(36, 39, 46, 0.815);    
+    padding: 1% 30px;
+    background-color: rgba(36, 39, 46, 0.815);
+}
+.main_navigation .logo{
+    margin-left: 14%;
 }
 .menu_navigation{
     display: flex;
     color: aliceblue;
     float: right;
+    margin-right: 14px;
 }
 .menu_navigation a{
     text-decoration: none;
@@ -88,7 +92,7 @@ body{
 .owl-item.active.center{
     width: 400px !important;
     position: relative;
-    margin-top: 50px;
+    margin-top: 32px;
 }
 .owl-stage{
     display: flex;
