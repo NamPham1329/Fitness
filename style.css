@@ -30,7 +30,10 @@ body{
     background-color: rgba(36, 39, 46, 0.815);
 }
 .main_navigation .logo{
-    margin-left: 14%;
+    margin-left: 13%;
+}
+.main_navigation .logo img{
+    padding: 1% 0;
 }
 .menu_navigation{
     display: flex;
@@ -40,6 +43,7 @@ body{
 }
 .menu_navigation a{
     text-decoration: none;
+    padding-bottom: 14px;
 }
 .menu_item{
     color: rgb(255, 255, 255);
@@ -48,7 +52,7 @@ body{
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
-    padding: 7px;
+    padding: 25px;
     border-bottom: 2px solid rgb(190, 190, 190);
     transition: 0.5s;
 }
@@ -78,21 +82,24 @@ body{
 .social_item {
     width: 100%;
     text-align: center;
-    padding: 12px 10px;
+    padding: 20px 20px;
     border: 1px solid rgb(255, 108, 44);
     border-bottom: none;
     border-left: none;
 }
+.social_item i{
+    color: #28373B;
+}
 .social_item a i{
-    font-size: 22px;
+    font-size: 30px;
 }
 .owl-item{
     margin-top: 64px;
 }
 .owl-item.active.center{
-    width: 400px !important;
+    width: 6% !important;
     position: relative;
-    margin-top: 32px;
+    margin-top: 12px;
 }
 .owl-stage{
     display: flex;
@@ -290,6 +297,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 10%;
+    padding-bottom: 5%;
 }
 .classes-title{ 
     color: rgb(255, 255, 255);
@@ -326,6 +334,12 @@ body{
 .classes_list_item {
     position: relative;
 }
+.classes_list_item hr{
+    width: 15%;
+    margin: auto;
+    position: relative;
+    bottom: 6%;
+}
 .classes_list_overview {
     position: absolute;
     left: 50%;
@@ -333,7 +347,7 @@ body{
     transform: translateX(-50%);
     z-index: 0;
     width: 100%;
-    padding: 15px 0px 15px 0px;
+    padding: 8% 0px;
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(19, 25, 26, 0.507);
@@ -347,19 +361,19 @@ body{
 .classes_hover {
     position: absolute;
     z-index: 0;
-    top: 5%;
-    left: 5%;
-    right: 5%;
-    bottom: 5%;
+    top: 11%;
+    left: 8%;
+    right: 8%;
+    bottom: 11%;
     display: none;
     cursor: pointer;
-    padding: 50px 20px;
+    padding: 20px 20px;
     text-align: center;
     background-color: rgb(255, 29, 106);
 }
 .classes_hover_title {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
     font-family:'Raleway', sans-serif;;
 }
@@ -368,15 +382,16 @@ body{
     display: block;
     width: 150px;
     height: 1px;
-    margin: 10px auto 10px;
+    margin: 25px auto;
     background-color: rgb(255, 255, 255);
 }
 .classes_hover_overview {
     color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 .classes_hover_link {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 11%;
     padding: 10px 25px;
     color:rgb(255, 108, 44);
     background-color: rgb(255, 255, 255);
@@ -389,26 +404,28 @@ body{
 }
 .classes_list_item:hover section {
     display: block ;
+    opacity: 0.86;
 }   
 .trained{
     width: 100%;
     padding-top: 5%;
+    background-color: #24272E;
 }    
 .our_trainer{
-    width: 50%;
+    width: 49%;
     margin: auto;
     color: #C8C8C8;
 }
 .title_trainer{
     text-align: center;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;   
 }
 .our_trainer hr{
     width: 18%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 33px;
     border: 1px solid #FF1D6A;
 }
 .first_trainer_overview{
@@ -444,10 +461,11 @@ body{
     color: #BBBBBB;
     font-weight: 400;
     font-size: 18px;
+    margin: 6px 0;
 }
 .trainer_info_container hr{
     width: 15%;
-    border: 1px solid #FF1D6A;
+    border: 2px solid #FF1D6A;
 }
 .trainer_info_overview{
     color: #BBBBBB;
@@ -467,6 +485,7 @@ body{
     background-color: rgb(255, 29, 106);
     padding: 5px;
     border-radius: 60%;
+    margin: 15px 10px 0px 2px;
 }
 .fab.fa-facebook-f{
     padding: 5px 8px;
@@ -506,7 +525,9 @@ body{
 .testmonials{
     width: 100%;
     color: #BBBBBB;
-    padding-top: 5%;
+    background-color: #24272E;
+    padding: 10% 0;
+    margin-top: -1px;
 }
 .testmonials hr{
     width: 10%;
@@ -515,7 +536,7 @@ body{
 }
 .testmonials_title{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #fff;
     font-weight: 600;
 }
@@ -530,6 +551,12 @@ body{
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+#slide3 .item{
+    
+    width: 53%;
+    margin: auto;
 }
 #slide3 .item .client{
     text-align: center;
@@ -540,17 +567,20 @@ body{
     margin-top: 5px;
 }
 #slide3 .item .client img{
-    width: 10% !important;
-    margin: 2% auto;
+    width: 16% !important;
+    margin: auto;
+    margin-top: 10%;
 }
 .blog{
-    background-color: rgb(24, 26, 31);
+    background-color: #24272E;
     color: #fff;
+    margin-top: -1px;
+    padding-bottom: 5%;
 }
 .blog .blog_title{
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 .blog hr{
     width: 10%;
@@ -577,14 +607,14 @@ body{
     padding: 0 2%;
 }
 #news .aside_blog_container .first_blog_content h2{
-    font-size: 16px;
+    font-size: 20px;
     color: #FF6C2C;
     font-weight: lighter;
     margin: 5% auto;
 }
 #news .aside_blog_container .first_blog_content p{
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 14px;
 }
 #news .aside_blog_container .first_blog_content .blog_icon_container{
     display: flex;
@@ -593,7 +623,7 @@ body{
 
 #news .aside_blog_container .first_blog_content .blog_icon_container p{
     color: #FF6C2C;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: lighter;
     margin-right: 10%;
 }
@@ -603,13 +633,17 @@ body{
     margin: 10px;
     font-weight: lighter;
 }
+#news .aside_blog_container .second_blog_content p{
+    font-weight: lighter;
+    font-size: 14px;
+}
 #news .aside_blog_container .second_blog_content img{
     width: 100%;
     object-fit: cover;
     padding: 0 2%;
 }
 #news .aside_blog_container .second_blog_content h2{
-    font-size: 16px;
+    font-size: 20px;
     color: #FF6C2C;
     font-weight: lighter;
     margin: 5% auto;
@@ -620,7 +654,7 @@ body{
 }
 #news .aside_blog_container .second_blog_content .blog_icon_container p{
     color: #FF6C2C;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: lighter;
     margin-right: 10%;
 }
@@ -634,23 +668,24 @@ body{
 }
 #news .main_blog_container .main_blog_content{
     display: flex;
-    padding-top: 5%;
+    padding: 7% 0;
 }
 #news .main_blog_container .main_blog_content .main_blog_first_overview{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 8%;
+    padding-right: 4%;
 }
 #news .main_blog_container .main_blog_content .main_blog_first_overview h2{
-    font-size: 20px;
+    font-size: 30px;
     color: #FF6C2C;
 }
 .first_blog_overview{
-    font-size: 12px;
+    font-size: 14px;
     color: #BBBBBB;
     margin-top: 15%;
 }
 .first_blog_second_overview{
-    font-size: 12px;
+    font-size: 14px;
     color: #BBBBBB;
     padding-top: 5%;
     padding-bottom: 10%;
@@ -658,20 +693,21 @@ body{
 .main_blog_second_overview{
     width: 50%;
     padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 8%;
 }
 .second_side_overview{
-    font-size: 12px;
+    font-size: 14px;
     color: #BBBBBB;
     padding-top: 5%;
 }
 .main_blog_second_overview hr{
     width: 100%;
     border: 1px solid #FF6C2C;
+    margin-bottom: 12%;
 }
 #news .main_blog_container .main_blog_content .main_blog_second_overview em{
-    font-size: 14px;
+    font-size: 20px;
     color: #BBBBBB;
 }
 .contact_container{
@@ -690,15 +726,16 @@ body{
 }
 .contact_title{
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 50px;
 }
 .contact_container hr{
-    width: 8%;
+    width: 6%;
     border: 1px solid #FF6C2C;
     margin-bottom: 2%;
 }
 .contact_container .contact_form{
-    width: 60%;
+    width: 75%;
+    margin-top: 4%;
 }
 .contact_container .contact_form .input{
     text-align: center;
@@ -711,26 +748,29 @@ body{
     padding: 10px 2%;
     margin: 0px 1%;
     border: 1px solid rgb(255, 108, 44);
+    font-size: 18px;
 }
 .contact_container .contact_form .text_area{
     text-align: center;
 }
 textarea{
-    width: 83%;
+    width: 82%;
     color: white;
     background-color: transparent;
     border: 1px solid rgb(255, 108, 44);
     margin: 10px;
     padding: 10px;
     resize: none;
+    padding-bottom: 12%;
+    font-size: 18px;
 }
 .submit{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 .submit button{
     cursor: pointer;
-    width: 220px;
+    width: 28%;
     background-color: rgb(255, 29, 106);
     color: rgb(255, 255, 255);
     text-transform: uppercase;
@@ -740,7 +780,12 @@ textarea{
 }
 .contact_info{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 6%;
+}
+.contact_info{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 1%;
 }
 .contact_social_container{
     margin: auto;
@@ -767,6 +812,9 @@ textarea{
     text-align: center;
     margin-top: 10%;
 }
+#contact .logo img{
+    width: 30%;
+}
 .footer_contact_info{
     width: 70%;
     display: flex;
@@ -777,7 +825,7 @@ textarea{
     color: #fff;
 }
 .quick_contact_title{
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bolder;
     margin-bottom: 15px;
 }
@@ -815,7 +863,7 @@ textarea{
 .popular_tags_title{
     margin:  3px;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bolder;
 }
 .footer_populartags {
@@ -834,6 +882,7 @@ textarea{
     border: 1px solid rgb(255, 255, 255);
     padding: 13px 25px;
     margin: 3px;
+    font-size: 14px;
 }
 /* css button slider*/
 .owl-prev{
@@ -873,7 +922,7 @@ textarea{
 .footer_menu_list .menu_item{
     text-align: center;
     border-bottom: none;
-    font-size: 12px;
+    font-size: 15px;
 }
 .copy_right{
     color: #fff;
@@ -881,7 +930,7 @@ textarea{
 }
 .copy_right_content{
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
 }
 @media only screen and (max-width:1110px){
     .about{
