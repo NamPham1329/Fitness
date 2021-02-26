@@ -102,18 +102,20 @@ body{
     top: 50%;
     right: 0px;
     transform: translateY(-50%);
-    width: 668px;
-    padding: 50px;
-    background-color: rgb(26, 26, 26);
+    padding: 60px 50px;
+    background-color: #292F39;
     animation-name: notice_right_to_left;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: both;
 }
+.notice_content{
+    width: 60%;
+    margin-left: 3%;
+}
 .notice_title {
     color: rgb(255, 255, 255);
-    margin: 15px 0px; 
-    font-size: 40px;  
+    font-size: 65px;  
 }
 .notice_overview {
     color: rgb(255, 255, 255);
@@ -128,7 +130,7 @@ body{
 .book_container {
     display: flex;
     align-items: center;
-    margin: 10px 0px;
+    margin-top: 7%;
 }
 .notice_button {
     margin-right: 25px;
@@ -158,8 +160,8 @@ body{
     position: relative;
 }
 .offer_container {
-   width: 100%;
-   margin: -110px 0px 0px 0px;
+    max-width: 1182px;
+    margin: -110px auto;
    z-index: 9;
 }
 .offer_list {
