@@ -58,8 +58,8 @@ body{
 }
 .icon_menu{
     position: fixed !important;
-    top: 0px;
-    right: 0;
+    top: 10px;
+    right: 10px;
     margin: 20px;
     display: none;
 }
@@ -1006,8 +1006,82 @@ textarea{
     }
 }
 @media only screen and (max-width:1110px){
+    .main_navigation {
+        padding: 3px 25px;
+    } 
+    .main_navigation .logo img{
+        padding: 10px 0;
+    }
+    .menu_navigation a{
+        padding: 0;
+    }
+    .menu_item {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .menu_navigation{
+        padding: 10px 0;
+    }
+    .social_item{
+        padding: 8px;
+    }
+    .social_item a i{
+        font-size: 18px;
+    }
+    .notice{
+        padding: 25px 20px;
+    }
+    .notice_title{
+        font-size: 40px;
+    }
+    .notice_overview{
+        font-size: 14px;
+    }
+    .notice_button{
+        font-size: 12px;
+    }
+    .notice_link{
+        font-size: 12px;
+    }
+    .about_welcome_title{
+        font-size: 30px;
+    }
+    .about_overview, .about_overview2, .first_trainer_overview, .classes_hover_overview, .classes_overview p, #slide3 .item .content p{
+        font-size: 16px;
+    }
+    .classes-title, .title_trainer, .testmonials_title, .blog .blog_title, .contact_title{
+        font-size: 35px;
+    }
+    .classes_hover_title{
+        font-size: 30px;
+    }
+    .classes_hover_title::after{
+        width: 120px;
+        margin: 10px auto;
+    }
+    .classes_hover_link {
+        margin-top: 7%;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .owl-item.active.center {
+        margin-top: 35px;
+    }
+    .classes_list_overview{
+        font-size: 22px;
+        padding: 4% 0;
+    }
+    .classes_list_item hr{
+        width: 20%;
+        bottom: 4%;
+    }
+    
+    /*  */
     .notice{
         width: 668px;
+    }
+    .notice_title{
+        font-size: 40px;
     }
     .about{
         display: block;
@@ -1076,6 +1150,9 @@ textarea{
     .menu_navigation{
         display: none;
     }
+    .owl-item.active.center {
+        margin-top: 40px;
+    }
 }
 @media only screen and (max-width:800px){
     .trainer_about{
@@ -1099,6 +1176,9 @@ textarea{
     }
     .classes_hover{
         padding: 10px 20px;
+    }
+    .owl-item.active.center {
+        margin-top: 45px;
     }
 }
 @media only screen and (max-width:768px){
@@ -1220,6 +1300,9 @@ textarea{
     .classes_list{
         grid-template-columns: repeat(2, 2fr);
     }
+    .about{
+        margin-top: 25%;
+    }
 }
 @media only screen and (max-width:425px){
     .gallery-top{
@@ -1267,6 +1350,9 @@ textarea{
     .classes_hover_overview{
         font-size: 12px;
     }
+    .about{
+        margin-top: 35%;
+    }
 }
 @media only screen and (max-width:375px){
     .footer_populartags{
@@ -1277,6 +1363,8 @@ textarea{
     }   
     .offers_title{
         font-size: 18px;
-    }   
-    
+    } 
+    .about{
+        margin-top: 40%;
+    } 
 }   
