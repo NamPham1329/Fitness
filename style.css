@@ -487,6 +487,27 @@ body{
     border-radius: 60%;
     margin: 15px 10px 0px 2px;
 }
+#myCarousel span{
+    font-size: 40px;
+    position: absolute;
+    top: -5px;
+    left: 12px;
+    color: #fff;
+}
+#slide2 span{
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: #fff;
+}
+#slide3 span{
+    font-size: 50px;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: #fff;
+}
 .fab.fa-facebook-f{
     padding: 5px 8px;
 }
@@ -982,7 +1003,7 @@ textarea{
         font-size: 40px;
     }
     .classes_hover_title{
-        font-size: 35px;
+        font-size: 34px;
     }
     .classes_hover_title::after{
         width: 120px;
@@ -992,6 +1013,39 @@ textarea{
         margin-top: 7%;
         padding: 10px 20px;
         font-size: 16px;
+    }
+    #myCarousel span {
+        font-size: 40px;
+        position: absolute;
+        top: -12px;
+        left: 10px;
+        color: #fff;
+    }
+    #slide2 span {
+        font-size: 50px;
+        position: absolute;
+        top: -10px;
+        left: 16px;
+        color: #fff;
+    }
+    #slide3 span {
+        font-size: 50px;
+        position: absolute;
+        top: -18px;
+        left: 8px;
+        color: #fff;
+    }
+    #slide2 .owl-next {
+        width: 50px;
+    }
+    #slide2 .owl-prev {
+        width: 50px;
+    }
+    .owl-next {
+        width: 4%;
+    }
+    .owl-prev {
+        width: 4%;
     }
     .owl-item.active.center {
         margin-top: 30px;
@@ -1153,6 +1207,10 @@ textarea{
     .owl-item.active.center {
         margin-top: 40px;
     }
+    
+    .classes_list{
+        grid-template-columns: repeat(2, 2fr);
+    }
 }
 @media only screen and (max-width:800px){
     .trainer_about{
@@ -1296,9 +1354,6 @@ textarea{
     }
     .popular_tags_title{
         font-size: 20px;
-    }
-    .classes_list{
-        grid-template-columns: repeat(2, 2fr);
     }
     .about{
         margin-top: 25%;
