@@ -101,6 +101,9 @@ body{
     position: relative;
     margin-top: 12px;
 }
+#myCarousel .owl-dots{
+    display: none;
+}
 .owl-stage{
     display: flex;
 }
@@ -1132,7 +1135,7 @@ textarea{
     
     /*  */
     .notice{
-        width: 668px;
+        width: 550px;
     }
     .notice_title{
         font-size: 40px;
