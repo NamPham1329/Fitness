@@ -1017,18 +1017,50 @@ textarea{
         padding: 10px 20px;
         font-size: 16px;
     }
-    #myCarousel span {
+    #myCarousel .owl-prev span {
         font-size: 40px;
         position: absolute;
-        top: -8px;
+        top: -12px;
+        left: 9px;
+        color: #fff;
+    }
+    #myCarousel .owl-prev{
+        bottom: 48%;
+    }
+    #myCarousel .owl-next{
+        bottom: 48%;
+    }
+    #myCarousel .owl-next span {
+        font-size: 40px;
+        position: absolute;
+        top: -12px;
+        left: 9px;
+        color: #fff;
+    }
+    #slide2 .owl-prev{
+        width: 40px;
+        height: 8%;
+        left: 15%;
+        bottom: 45%;
+    }
+    #slide2 .owl-prev span {
+        font-size: 50px;
+        position: absolute;
+        top: -12px;
         left: 10px;
         color: #fff;
     }
-    #slide2 span {
+    #slide2 .owl-next {
+        width: 40px;
+        height: 8%;
+        right: 15%;
+        bottom: 45%;
+    }
+    #slide2 .owl-next span {
         font-size: 50px;
         position: absolute;
-        top: -10px;
-        left: 16px;
+        top: -12px;
+        left: 10px;
         color: #fff;
     }
     #slide3 span {
@@ -1038,17 +1070,11 @@ textarea{
         left: 8px;
         color: #fff;
     }
-    #slide2 .owl-next {
-        width: 50px;
-    }
-    #slide2 .owl-prev {
-        width: 50px;
-    }
     .owl-next {
-        width: 4%;
+        width: 30px;
     }
     .owl-prev {
-        width: 4%;
+        width: 30px;
     }
     .owl-item.active.center {
         margin-top: 30px;
@@ -1120,6 +1146,36 @@ textarea{
         margin-top: 7%;
         padding: 10px 20px;
         font-size: 14px;
+    }
+    #myCarousel .owl-prev span {
+        top: -11px;
+        left: 7px;
+    }
+    #myCarousel .owl-next span {
+        top: -11px;
+        left: 7px;
+    }
+    #slide2 .owl-prev {
+        width: 30px;
+    }
+    #slide2 .owl-next {
+        width: 30px;
+    }
+    #slide2 .owl-prev span {
+        top: -18px;
+        left: 5px;
+    }
+    #slide2 .owl-next span {
+        top: -18px;
+        left: 8px;
+    }
+    #slide3 .owl-prev span {
+        top: -19px;
+        left: 5px;
+    }
+    #slide3 .owl-next span {
+        top: -19px;
+        left: 8px;
     }
     .owl-item.active.center {
         margin-top: 35px;
@@ -1377,14 +1433,6 @@ textarea{
     }
     .trainer_about #myCarousel .owl-dots{
         display: none;
-    }
-    .owl-prev{ 
-        width: 7%;
-        height: 7%;
-    }
-    .owl-next{
-        width: 7%;
-        height: 7%;
     }
     .footer_populartags{
         grid-template-columns: repeat(2,1fr);
