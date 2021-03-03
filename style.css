@@ -667,7 +667,7 @@ body{
     font-weight: lighter;
     font-size: 14px;
 }
-second_blog_content img{
+.second_blog_content img{
     width: 100%;
     object-fit: cover;
     padding: 0 2%;
@@ -1625,6 +1625,18 @@ textarea{
     .about{
         margin-top: 35%;
     }
+    .owl-item.active.center {
+        width: 350px;
+    }
+    #slide2 .owl-prev {
+        left: 0;
+    }
+    #slide2 .owl-next {
+        right: 0;
+    }
+    #slide2 .owl-item.active.center {
+        width: 424px !important;
+    }
     #slide3 .item {
         width: 100%;
     }
@@ -1634,6 +1646,7 @@ textarea{
     #slide3 .owl-next {
         right: -40px;
     }
+
 }
 @media only screen and (max-width:375px){
     .footer_populartags{
