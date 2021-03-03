@@ -846,9 +846,6 @@ textarea{
     text-align: center;
     margin-top: 10%;
 }
-#contact .logo img{
-    width: 30%;
-}
 .footer_contact_info{
     width: 70%;
     display: flex;
@@ -1486,7 +1483,7 @@ textarea{
         display: block;
     }
     #contact .logo {
-        margin: 0 auto;
+        margin: 20px auto;
     }
     .footer_contact_info {
         width: 90%;
@@ -1562,8 +1559,6 @@ textarea{
     .classes_hover_link {
         font-size: 12px;
     }
-    
-   
 }
 @media only screen and (max-width:720px){
     .classes_list {

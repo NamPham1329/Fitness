@@ -21,7 +21,7 @@ $('#myCarousel').owlCarousel({
     }
 })
 $('#slide2').owlCarousel({
-    // autoplay:true,
+    autoplay:true,
     center: true,
     loop: true,
     nav: true,
