@@ -1364,6 +1364,9 @@ textarea{
     .blog_icon i{
         font-size: 14px;
     }
+    .footer_menu_list {
+        width: 80%;
+    }
 }
 @media only screen and (max-width:800px){
     .trainer_about{
