@@ -1319,7 +1319,7 @@ textarea{
         height: 8%;
     }
     #myCarousel .owl-next {
-        width: 6%;
+        width: 5%;
         height: 8%;
     }
     #myCarousel .owl-prev span {
@@ -1327,8 +1327,8 @@ textarea{
         left: 10px;
     }
     #myCarousel .owl-next span {
-        top: -12px;
-        left: 10px;
+        top: -14px;
+        left: 9px;
     }
     #slide2 .owl-prev span {
         font-size: 38px;
