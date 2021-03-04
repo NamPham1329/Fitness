@@ -434,7 +434,7 @@ body{
 .our_trainer hr{
     width: 18%;
     margin: auto;
-    margin-top: 33px;
+    margin-top: 20px;
     border: 1px solid #FF1D6A;
 }
 .first_trainer_overview{
@@ -474,7 +474,7 @@ body{
 }
 .trainer_info_container hr{
     width: 15%;
-    border: 2px solid #FF1D6A;
+    border: 1px solid #FF1D6A;
 }
 .trainer_info_overview{
     color: #BBBBBB;
@@ -927,7 +927,7 @@ textarea{
 }
 .owl-next{
     position: absolute;
-    bottom: 38%;
+    bottom: 43%;
     right: 0; 
     width: 3%;
     height: 10%;
@@ -1220,6 +1220,7 @@ textarea{
     .classes_list_overview{
         font-size: 22px;
         padding: 4% 0;
+        margin-bottom: 5px;
     }
     .classes_list_item hr{
         width: 20%;
