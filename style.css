@@ -342,6 +342,7 @@ body{
 }
 .classes_list_item {
     position: relative;
+    margin-top: -5px;
 }
 .classes_list_item hr{
     width: 15%;
