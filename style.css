@@ -1095,6 +1095,7 @@ textarea{
     }
     #slide3 .owl-next {
         width: 35px;
+        bottom: 37%;
     }
     #slide3 .owl-prev {
         width: 35px;
@@ -1269,6 +1270,9 @@ textarea{
     .classes_hover_link{
         margin-top: 10px;
         font-size: 14px;
+    }
+    #slide3 .item {
+        width: 100%;
     }
 }
 @media only screen and (max-width:1024px){
