@@ -1,5 +1,5 @@
 $('#myCarousel').owlCarousel({
-    // autoplay:true,
+    autoplay:true,
     loop:true,
     margin:10,
     nav:true,
@@ -45,7 +45,7 @@ $('#slide2').owlCarousel({
 });
 $('#slide3').owlCarousel({
     loop:true,
-    // autoplay:true,
+    autoplay:true,
     margin:10,
     nav:true,
     autoplayTimeout:7000,
