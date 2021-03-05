@@ -337,8 +337,8 @@ body{
 .classes_list {
     display:grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-column-gap: 8px;
-    grid-row-gap:4px;
+    grid-column-gap: 0px;
+    grid-row-gap:0px;
 }
 .classes_list_item {
     position: relative;
@@ -1315,7 +1315,7 @@ textarea{
         padding: 40px 5px;
     }
     #myCarousel .owl-prev {
-        width: 6%;
+        width: 5%;
         height: 8%;
     }
     #myCarousel .owl-next {
@@ -1323,8 +1323,8 @@ textarea{
         height: 8%;
     }
     #myCarousel .owl-prev span {
-        top: -12px;
-        left: 10px;
+        top: -14px;
+        left: 8px;
     }
     #myCarousel .owl-next span {
         top: -14px;
