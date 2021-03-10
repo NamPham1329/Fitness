@@ -651,7 +651,10 @@ body{
     display: flex;
     margin-top: 4%;
 }
-
+.blog_icon span{
+    font-size: 14px;
+    color: #fff;
+}
 .first_blog_content .blog_icon_container p{
     color: #FF6C2C;
     font-size: 14px;
@@ -1370,6 +1373,7 @@ textarea{
     .blog_icon i{
         font-size: 14px;
     }
+
     .footer_menu_list {
         width: 80%;
     }
